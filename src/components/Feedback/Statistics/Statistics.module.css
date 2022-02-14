@@ -1,0 +1,17 @@
+.Table {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 30px;
+  color: #3c096c;
+  font-size: 20px;
+}
+
+.Table tr {
+  display: grid;
+  grid-template-columns: 220px auto;
+}
+
+.Table td {
+  border-bottom: 1px solid #9d4edd;
+  padding: 5px 30px;
+}
