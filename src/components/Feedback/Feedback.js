@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import Section from './Section';
 import FeedbackOptions from './FeedbackOptions';
 import Statistics from './Statistics';
 import styles from './Feedback.module.css';
 
-class Feedback extends Component {
+class Feedback extends React.Component {
   static defaultProps = {
     initialGood: 0,
     initialNeutral: 0,
